@@ -1,0 +1,10 @@
+function question0(array){
+ console.log("incomming arry");
+  let arr = [];
+  for (let i = 0; i < array.length; i++){
+    if (i % 2 ===0){
+      arr.push(array[i]);
+    }
+    return arr;
+  }
+}
